@@ -83,7 +83,7 @@
 
 
         //for executing queries and save data in database
-        $res = mysqli_query($conn, $sql) or die(mysqli_error());
+        $res = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
         //to check wheather the query is executed or not
         if($res==TRUE)
