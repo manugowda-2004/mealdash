@@ -1,0 +1,221 @@
+/*css for admin page*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("../images/admin-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 16px;
+    color: #333; 
+}
+
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+    background-color: aqua;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow:0 0 10px black;
+    overflow-x: auto;
+}
+
+.tbl-30{
+    width: 30%;
+}
+.tbl-50{
+    width: 50%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 10px   ;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color:#1e90ff;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.btn-primary:hover{
+    background-color: #5352ed;
+}
+
+.btn-secondary{
+    background-color:#009432;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #0b5f2e;
+}
+
+.btn-danger{
+    background-color: #EA2027;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ED4C67;
+}
+
+.success{
+    color: #009432;
+}
+
+.error{
+    color: #EA2027;
+}
+/*CSS for menu*/
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff4757;
+    
+}
+.menu ul li a:hover{
+    color: #ffa502;
+}
+
+/*CSS for main*/
+.main{
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 16%;
+    background-color: rgb(232, 229, 229);
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+/*CSS for footer*/
+.footer{
+    color: rgb(8, 7, 7);
+}
+
+/* Responsive Design */
+
+/* For devices with width 768px or less (e.g., tablets) */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        padding: 2%;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .col-4 {
+        width: 45%;
+        margin: 2.5% auto;
+        float: none;
+    }
+
+    .tbl-30,
+    .tbl-50 {
+        width: 100%;
+    }
+
+    table tr th,
+    table tr td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn-primary,
+    .btn-secondary,
+    .btn-danger {
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* For devices with width 480px or less (e.g., smartphones) */
+@media (max-width: 480px) {
+    .wrapper {
+        width: 95%;
+        padding: 3%;
+    }
+
+    .col-4 {
+        width: 90%;
+        margin: 3% auto;
+    }
+
+    .tbl-full {
+        font-size: 13px;
+    }
+
+    .btn-primary,
+    .btn-secondary,
+    .btn-danger {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .menu ul li {
+        padding: 8px 0;
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1.2em;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
