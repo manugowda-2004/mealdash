@@ -10,6 +10,6 @@
     define('DB_PASSWORD' ,'');
     define('DB_NAME','mealdash');
     //execute query and save data in database
-    $conn = mysqli_connect(LOCALHOST,DB_USERNAME, DB_PASSWORD) or die(mysqli_error());//to database connection
-    $db_select = mysqli_select_db($conn, 'mealdash') or die(mysqli_error());//to select database
+    $conn = mysqli_connect(LOCALHOST,DB_USERNAME, DB_PASSWORD) or die(mysqli_error($conn));//to database connection
+    $db_select = mysqli_select_db($conn, 'mealdash') or die(mysqli_error($conn));//to select database
 ?>
