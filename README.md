@@ -24,23 +24,21 @@ This README is ready to copy & paste into your repository root as `README.md`. E
 
 ## About
 
-MealDash is a minimal PHP application demonstrating a simple menu, cart and checkout flow suitable as a starting point for a restaurant ordering site or delivery prototype.
+# MealDash – Food Ordering Web Application
+
+MealDash is a full-stack web-based food ordering system built using PHP, MySQL, JavaScript, HTML, and CSS. It allows users to browse food items, add to cart, and place orders with authentication features.
 
 ## Features
-
-- Menu listing with categories and pricing
-- Add to cart and cart management
-- Simple checkout / order capture
-- Server-side rendered PHP views
-- Responsive styling with CSS
-- Easy to extend (authentication, admin, payment gateways)
+- User Registration & Login Authentication
+- Browse Food Menu
+- Add to Cart & Place Orders
+- Admin Dashboard for managing products and orders
+- Responsive Design
 
 ## Tech Stack
-
-- PHP (server-side)
-- CSS (styling)
-- Optional: MySQL / MariaDB (persistence)
-- Optional: Composer (dependency management)
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database: MySQL
 
 ## Requirements
 
